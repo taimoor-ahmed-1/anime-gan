@@ -33,5 +33,5 @@ def generate_image():
 # Create a button to trigger image generation.
 if st.button("Generate New Image"):
     img = generate_image()
-    st.image(img, caption="Generated Image", use_column_width=True)
+    st.image(img, caption="Generated Image", use_container_width=True)
 
