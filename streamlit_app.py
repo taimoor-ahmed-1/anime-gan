@@ -9,7 +9,7 @@ st.title("DCGAN Image Generator")
 @st.cache_resource
 def load_generator_model():
     # Update the path to where your saved generator model is located.
-    model_path = "images/generator_model_final.h5"
+    model_path = "model/generator_model_final.h5"
     model = tf.keras.models.load_model(model_path)
     return model
 
